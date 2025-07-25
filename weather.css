@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background: linear-gradient(to top, #121825, #1f263a);
+  color: #fff;
+  direction: rtl;
+  text-align: center;
+}
+
+.container {
+  max-width: 450px;
+  margin: auto;
+  padding: 20px;
+}
+
+.header {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.header button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  color: orange;
+}
+
+.city-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.temp {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+.status {
+  font-size: 20px;
+  color: #ccc;
+}
+
+.range {
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.aqi {
+  background-color: rgba(255,255,255,0.2);
+  padding: 5px 15px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.forecast {
+  background-color: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.forecast-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.bar {
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(to right, orange, red);
+  width: 60%;
+  margin-top: 4px;
+}
